@@ -6,6 +6,7 @@
   --color-gray: #f5f4fa;
   --color-bg-dark: #2f303a;
   --color-logo: #000;
+  --hover-btn: #4d5ae5;
 }
 
 body {
@@ -44,7 +45,8 @@ address {
   color: var(--color-primary);
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: var(--color-brand);
 }
 
@@ -54,7 +56,8 @@ address {
   color: var(--color-secondary);
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--color-brand);
 }
 
@@ -72,6 +75,7 @@ address {
   text-transform: uppercase;
 }
 
+/* Button */
 .hero-button {
   font-size: 16px;
   font-weight: 700;
@@ -80,6 +84,12 @@ address {
   border: none;
   background-color: var(--color-brand);
   text-align: center;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-btn);
 }
 
 .section-title {
@@ -102,7 +112,15 @@ address {
   color: var(--color-secondary);
 }
 
-/* Team section */
+/* Team section-4 */
+.section-4 {
+  background-color: var(--color-gray);
+}
+
+.list-item {
+  background-color: var(--color-light);
+}
+
 .person-name {
   font-size: 16px;
   font-weight: 500;
@@ -161,7 +179,8 @@ address {
   cursor: pointer;
 }
 
-.nav-button:hover {
+.nav-button:hover,
+.nav-button:focus {
   color: var(--color-light);
   background-color: var(--color-brand);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
