@@ -216,27 +216,3 @@ address {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-/* Portfolio page */
-.nav-button {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: var(--color-light); /* Text color is white */
-  background-color: var(--color-brand); /* Background color is blue */
-  width: 130px;
-  height: 38px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth animation */
-}
-
-.nav-button:hover,
-.nav-button:focus {
-  color: var(--color-light); /* Text color on hover/focus */
-  background-color: #188ce8; /* Blue color on hover/focus */
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
