@@ -133,12 +133,17 @@ address {
   color: var(--color-brand);
 }
 
-.address-link {
+.address-link,
+.footer-link {
   color: var(--color-light);
+  transition: color 0.3s; /* Add transition for smooth color change */
 }
 
-.footer-link {
-  color: #ffffff99;
+.address-link:hover,
+.footer-link:hover,
+.address-link:focus,
+.footer-link:focus {
+  color: #188ce8; /* Blue color on hover/focus */
 }
 
 /* Portfolio page */
